@@ -1,0 +1,123 @@
+/* Ahmad Malki 2140076 */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(23, 23, 23);
+    font-family: sans-serif;
+}
+
+h1, h2, p{
+    align-self: center;
+    color: rgb(185, 185, 185);
+}
+
+h2 {
+    text-align: center;
+    width: 70%;
+}
+
+button {
+    padding: 5px 10px;
+    width: 100px;
+    color: white;
+    align-self: center;
+    background-color: rgb(200, 32, 26);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover, a:hover{
+    background-color: rgb(161, 26, 21);
+}
+
+button:active, a:active {
+    background-color: rgb(132, 21, 17);
+}
+
+.spell-name {
+    font-size: 20px;
+}
+
+a {
+    font-size: small;
+    padding: 5px 15px;
+    color: white;
+    background-color: rgb(200, 32, 26);
+    border-radius: 2px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#loading-div {
+    align-self: center;
+}
+
+#container {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    text-align: justify;
+}
+
+.item-container {
+    flex-basis: 100%;
+    background-color: rgb(33, 33, 33);
+    border: solid rgb(200, 32, 26);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px;
+}
+
+textarea {
+    color: rgb(185, 185, 185);
+    margin-bottom: 20px;
+    padding: 0px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.25);
+    height: 35vh;
+    width: 100%;
+    text-align: justify;
+    line-height: 150%;
+    resize: none;
+}
+
+/* Color classes */
+
+.lightblue {
+    color: lightblue;
+}
+
+.yellow {
+    color: orange;
+}
+
+.silver {
+    color: silver;
+}
+
+.pink {
+    color: pink;
+}
+
+.red {
+    color: red;
+}
+
+.purple {
+    color: purple;
+}
+
+.lightgreen {
+    color: lightgreen;
+}
+
+.lightbrown {
+    color: rgb(202, 150, 81);
+}
